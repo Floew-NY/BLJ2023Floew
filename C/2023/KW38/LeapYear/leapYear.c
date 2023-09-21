@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-//declares fields
+// declares fields
 int isLeapYear(int year);
 int daysInMonth(int month, int year);
 void printDateInfo(int month, int year);
 void exitOutsideRange(int rangeA, int rangeB, int number);
+
 int main()
 {
     int month;
     printf("Input the month:  ");
     scanf("%d", &month);
-exitOutsideRange(1,12,month);
+    exitOutsideRange(1, 12, month);
     int year;
     printf("Input the year:  ");
     scanf("%d", &year);
-exitOutsideRange(0,2147483646,year);
+    exitOutsideRange(0, 2147483646, year);
     printDateInfo(month, year);
 
     return 0;
@@ -36,31 +37,31 @@ int daysInMonth(int month, int year)
 {
     int days;
 
-switch (month)
-{
-case 4:
-case 6:
-case 9:
-case 11:
-    days = 30;
-    break;
-case 1:
-case 3:
-case 5:
-case 7:
-case 8:
-case 10:
-case 12:
-    days = 30;
-    break;
-case 2:
-days = 28;
-}
-if (isLeapYear(year) && month == 2)
-{
-    days++;
-}
-return days;
+    switch (month)
+    {
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        days = 30;
+        break;
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        days = 30;
+        break;
+    case 2:
+        days = 28;
+    }
+    if (isLeapYear(year) && month == 2)
+    {
+        days++;
+    }
+    return days;
 }
 
 void printDateInfo(int month, int year)

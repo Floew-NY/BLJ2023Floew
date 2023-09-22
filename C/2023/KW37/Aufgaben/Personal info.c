@@ -5,7 +5,5 @@ int main () {
     printf("Address: Racoonstreet 23\n");
     printf("PLZ: 19191\n");
     printf("Country: Uganda\n");
-
-
     return 0;
 }

@@ -29,7 +29,7 @@
             "miDebuggerPath": "/usr/bin/gdb"
         },
         {
-            "name": "[FILE] C/C++: gcc build and debug active file",
+            "name": "[File] C/C++: gcc build active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}.out",
@@ -52,7 +52,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "[FILE] C/C++: gcc build active file",
+            "preLaunchTask": "[File] C/C++: gcc build active file",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]

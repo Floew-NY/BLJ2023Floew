@@ -9,7 +9,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"stdlib.h": "c"
+			"stdlib.h": "c",
+			"type_traits": "c"
 		}
 	}
 }

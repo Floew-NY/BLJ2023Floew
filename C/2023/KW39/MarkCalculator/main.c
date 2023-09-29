@@ -5,7 +5,6 @@
 
 int main(int argc, char **argv)
 {
-
     printf("-----------------------\n");
     printf("Average Mark Calculator\n");
     printf("-----------------------\n");

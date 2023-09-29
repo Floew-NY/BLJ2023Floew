@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include "helperFunctions.h"
 
-
 void fsort(int *array, int length)
 {
-    
-    int changeLog[length-1];
-    
+
+    int changeLog[length - 1];
+
     do
     {
-        for (int i = 0; i < length-1; i++)
+        for (int i = 0; i < length - 1; i++)
         {
             changeLog[i] = 0;
             if (array[i] > array[i + 1])
@@ -18,8 +17,7 @@ void fsort(int *array, int length)
                 fswitch(&array[i], &array[i + 1]);
             }
         }
-    } while(hasChange(changeLog,length-1));
-
+    } while (hasChange(changeLog, length - 1));
 }
 
 
@@ -32,6 +30,5 @@ int main(int argc, char const *argv[])
     fsort(array, length);
     printf("sorted:");
     printArray(array, length);
-
     return 0;
 }

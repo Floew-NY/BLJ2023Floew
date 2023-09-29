@@ -22,11 +22,30 @@ void fsort(int *array, int length)
 
 int scanArray(int searchParameter, int *array, int length)
 {
-    int location;
+    int location = 0;
+    int min = 0;
+    int max = length;
+    int mid;
     while (!array[location] == searchParameter)
     {
-        
+        mid = (((max - min) / 2) + min);
+        if (array[mid] == searchParameter)
+        {
+            location = mid;
+        }
+        else if (array[max] == searchParameter)
+        {
+            location = max;
+        }else if (array[mid] > searchParameter)
+        {
+            max = mid - 1;
+        }
+        else
+        {
+            min = mid + 1;
+        }
     }
+    return location;
 }
 
 int main(int argc, char const *argv[])
@@ -38,6 +57,8 @@ int main(int argc, char const *argv[])
     fsort(array, length);
     printf("sorted:");
     printArray(array, length);
-    scanArray(array, length);
+    int input;
+    scanf("%d", &input);
+    printf(">> %d\n", scanArray(input, array, length));
     return 0;
 }

@@ -11,6 +11,7 @@
 		"files.associations": {
 			"stdlib.h": "c",
 			"type_traits": "c"
-		}
+		},
+		"liveServer.settings.multiRootWorkspaceName": "BLJ2023Floew"
 	}
 }

@@ -22,3 +22,5 @@ typedef struct Manager
     int height;
     TClub club;
 } TManager;
+
+void sortFamily(int sortCriteria[2], TManager *family);

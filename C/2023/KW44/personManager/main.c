@@ -15,9 +15,9 @@ void initPerson(TManager *man, char name[], int birthyear, int weight, int heigh
 void initFamily(TManager *family)
 {
     initPerson(&family[0], "John Doe", 1981, 91, 196, "PfadiMH", "Gelendesport");
-    initPerson(&family[1], "Jane Doe", 1980, 64, 178, "Pfadi Wulp", "Gelendesport");
-    initPerson(&family[2], "Jack Doe", 2008, 40, 163, "Pfadi Olymp", "Gelendesport");
-    initPerson(&family[3], "Judy Doe", 2015, 30, 124, "Pfadi Ratatuille", "Gelendesport");
+    initPerson(&family[1], "Fane Doe", 1980, 64, 178, "Pfadi Wulp", "Gelendesport");
+    initPerson(&family[2], "Dack Doe", 2008, 40, 163, "Pfadi Olymp", "Gelendesport");
+    initPerson(&family[3], "Gudy Doe", 2015, 30, 124, "Pfadi Ratatuille", "Gelendesport");
 }
 void printFamily(TManager *family)
 {
@@ -56,11 +56,24 @@ TManager findOldestFamilyMember(TManager *family)
 
 int main(int argc, char *argv[])
 {
+    int sortCriteria[2];
+    printf("Hei, du! Wäisch, was du wottsch? \n");
+    printf("0 - Sortiere nach Name \n");
+    printf("1 - Sortiere nach Alter \n");
+    printf("2 - Sortiere nach Gewicht \n");
+    printf("3 - Sortiere nach Grössi \n");
+    printf("Gib din Wahl i: ");
+    scanf("%d", &sortCriteria[0]);
+
+    printf("\nUnd wie wottsch du sortiere? Ascendiirend oder descendiirend? \n");
+    printf("1 - Ascendiirend \n");
+    printf("0 - Descendiirend \n");
+    printf("Gib din Wahl i: ");
+    scanf("%d", &sortCriteria[1]);
     TManager family[FAMILY_SIZE];
     initFamily(family);
+    sortFamily(sortCriteria, family);
     printFamily(family);
 
-    printf("Oldest Person:");
-    printPerson(findOldestFamilyMember(family));
     return 0;
 }

@@ -41,6 +41,7 @@ bool isGreaterInt(int asc, int current, int next)
             return true;
         }
     }
+    return false;
 }
 bool isGreaterLetter(int asc, char current[], char next[])
 {
@@ -76,7 +77,7 @@ void sortFamily(int sortCriteria[2], TManager *family)
         {
             if (comparePeople(sortCriteria, family[i], family[i + 1]))
             {
-                swapPeople(&family[i], &family[i + 1]);
+                swapPeople(&(family[i]), &(family[i + 1]));
                 changes = true;
             }
         }

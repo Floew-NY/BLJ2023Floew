@@ -48,16 +48,9 @@ void listAdd(TNode *pHead, int data)
 
 void listInsert(TNode *pHead, int index, int data)
 {
-    TNode *current = pHead;
-    for (int i = 0; i < index; i++)
-    {
-        if (current != NULL)
-        {
-            current = current->pNextNode;
-        }
-    }
+    TNode *current =
 
-    if (current != NULL)
+        if (current != NULL)
     {
         TNode *newItem = initItem(data);
         newItem->pNextNode = current;
@@ -140,6 +133,7 @@ int main(int argc, char *argv[])
 
     printf("List Length is %d\n\n", listLength(head));
 
+    listRemove(head, 1);
     // listSetAll(head, 1);
     printList(head);
 

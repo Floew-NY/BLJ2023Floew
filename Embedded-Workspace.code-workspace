@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "Embedded Ük 216"
+		},
+		{
+			"name": "ESP32 Uek",
+			"path": "Embedded Ük 216/2023/Vorbereitung/ESP32 Uek"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdlib.h": "c",
+			"type_traits": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "BLJ2023Floew"
+	}
+}

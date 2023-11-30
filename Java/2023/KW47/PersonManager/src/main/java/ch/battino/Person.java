@@ -24,6 +24,8 @@ this.originCountry = inputStr("Country of Origin:");
 String inputFavoriteFoods = inputStr("Favorite Foods Separated by a \";\"");
 this.favoriteFoods = inputSeperator(inputFavoriteFoods);
     }
+
+
     public int inputInt(String inputAsked){
         System.out.println("Enter "+ this.name+"'s "+inputAsked);
         do {
@@ -62,7 +64,7 @@ temp.append("\n");
                 "originCountry:'" + originCountry + '\n' +
                 "favoriteFoods:" + '\n' + favoriteFoods + '\n';
     }
-    public void closeInput() {
+    public static void closeInput() {
         scan.close();
     }
 }

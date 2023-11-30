@@ -18,8 +18,10 @@ public class Main {
             String repeatPrompt = sc.nextLine();
 
             if (!repeatPrompt.toLowerCase().equals("y")){
+                sc.close();
                 break;
             }
         }while (true);
+        Person.closeInput();
     }
 }

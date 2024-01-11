@@ -84,19 +84,43 @@ public class Simulation extends Thread {
        * implemented). It might be a good start to traverse the entire simulation
        * field, which allows you to look at the values contained in each cell.
        */
+      for (int i = 0; i < field.length; i++) {
+        for (int j = 0; j < field[0].length; j++) {
+          boolean alive = (field[i][j] == 1);
+          int neighbours = getNeighbourCount(i, j);
+          newField[i][j] = decideFate(neighbours, alive);
+        }
+      }
 
-      /*
-       * TODO: Stop the simulation if the current and next generation are the same. In
-       * order to do that, call the method stopSimulation() under the right
-       * circumstances.
-       */
-
+      if (!isChanged(newField))
+        stopSimulation();
       pCS.firePropertyChange("field", field, newField);
       field = newField;
       try {
         Thread.sleep(speed);
-      } catch (InterruptedException e) {}
+      } catch (InterruptedException e) {
+      }
     }
+  }
+
+  private int decideFate(int neighbours, boolean alive) {
+    if (alive) {
+      if (neighbours < 2 || neighbours > 3)
+        return 0;
+      return 1;
+    } else {
+      if (neighbours == 3)
+        return 1;
+      return 0;
+    }
+  }
+
+  private boolean isChanged(int[][] newField) {
+    for (int i = 0; i < newField.length; i++)
+      for (int j = 0; j < newField[0].length; j++)
+        if (newField[i][j] != field[i][j])
+          return true;
+    return false;
   }
 
   /**
@@ -116,12 +140,15 @@ public class Simulation extends Thread {
   private int getNeighbourCount(int x, int y) {
     int neighbourCount = 0;
 
-    /*
-     * TODO: Implement logic that counts the neighbours of a given cell. Neighbours
-     * are up to 8 living cells next to the cell in question, according to the
-     * comment above.
-     */
-
+    for (int i = x - 1; i <= x + 1; i++)
+      for (int j = y - 1; j <= y + 1; j++) {
+        if (i == x && j == y)
+          continue;
+        if (!wrapField && !coordsInBounds(i, j))
+          continue;
+        if (field[Math.floorMod(i, field[0].length)][Math.floorMod(j, field.length)] == 1)
+          neighbourCount++;
+      }
     return neighbourCount;
   }
 
@@ -141,8 +168,7 @@ public class Simulation extends Thread {
      * i.e. neither the x or y coordinate is negative or greater than the width or
      * height of the simulation field.
      */
-
-    return false;
+    return (x >= 0 && y >= 0 && x < field[0].length && y < field.length);
   }
 
   /**
@@ -160,7 +186,7 @@ public class Simulation extends Thread {
      * TODO: INTERMEDIATE TASK - The simulation field is limited in size and has a
      * border. Having the simulation field wrap around itself means that something
      * can disappear at the right border and reappear on the left. Same for top and
-     * bottom and in all directions. 
+     * bottom and in all directions.
      */
 
     return 0;
@@ -177,7 +203,8 @@ public class Simulation extends Thread {
     pCS.firePropertyChange("field", null, field);
     try {
       Thread.sleep(timeout);
-    } catch (InterruptedException e) {}
+    } catch (InterruptedException e) {
+    }
   }
 
   /**

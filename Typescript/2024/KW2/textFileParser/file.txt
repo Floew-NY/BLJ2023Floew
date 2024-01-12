@@ -1,0 +1,12 @@
+bun init helps you get started with a minimal project and tries to
+
+
+Wow
+
+
+w w w w w w w w w
+
+
+
+
+guess sensible defaults. Press ^C anytime to quit.

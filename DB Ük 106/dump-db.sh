@@ -1,0 +1,1 @@
+pg_dump -h 192.168.18.129 -p 5432 -d postgres -U postgres --no-owner --no-acl --inserts --schema soccer -W -f "/mnt/d/P3B4B9E-Florian-Loew/06_dump_schma_soccer_task-6.sql"

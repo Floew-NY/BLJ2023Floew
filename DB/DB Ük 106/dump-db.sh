@@ -1,0 +1,1 @@
+pg_dump -h 192.168.18.128 -p 5433 -d postgres -U postgres --schema public > 'Vorbereitung/FK Testing/db-backup/mydump.sql'

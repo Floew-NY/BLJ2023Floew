@@ -1,0 +1,1 @@
+psql -h 192.168.18.128 -p 5433 -d GameStore -U postgres -W

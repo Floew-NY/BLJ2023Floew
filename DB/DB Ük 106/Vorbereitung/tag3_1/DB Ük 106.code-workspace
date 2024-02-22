@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "192.168.18.128",
+				"port": 5433,
+				"driver": "PostgreSQL",
+				"name": "postgres",
+				"database": "GameStore",
+				"username": "postgres",
+				"password": "1234"
+			}
+		]
+	}
+}

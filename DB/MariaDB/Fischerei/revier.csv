@@ -1,0 +1,338 @@
+ID;Revier;verwaltet_durch
+5;Türlersee mit Zuflüssen und Ausfluss bis zum Regulierweiher bei Sprecherhüser;1000
+6;Chatzensee bei Regensdorf, einschl. Verbindungsgraben, jedoch ohne Ausfluss;1001
+7;Hüttnersee mit Zuflüssen und Abfluss bis zur Kantonsgrenze;1002
+8;"Egelsee bei Bubikon, mit Seeligraben vom See bis zum Strassendurchlass beim Zellhof, samt
+Zuflüssen";1003
+22;"Hauptstauhaltung Rheinau, linke Stromhälfte vom Rötibach (Gemeindegrenze Dachsen-Rheinau) bis
+zum Hauptwehr EW Rheinau, ohne Rötibach (Rev. 47)";1004
+23;"Rhein, Obere Hilfsstauhaltung Rheinau, linke Stromhälfte vom Hauptwehr EW Rheinau bis zum
+oberen Hilfswehr, einschl. kleiner Rhein";1005
+24;"Rhein, Untere Hilfsstauhaltung Rheinau, linke Stromhälfte vom oberen Hilfswehr EW Rheinau bis
+zum unteren Hilfswehr";1006
+25;Rhein, Rüedifahr, linke Stromhälfte vom unteren Hilfswehr EW Rheinau bis zur Rheinpegelstation bei der Gemeindegrenze Rheinau/Marthalen, ca. 750 m oberhalb der Fähre Ellikon;1007
+27;"Rhein, Ellikerwasser, linke Stromhälfte von der Rheinpegelstation bei der Gemeindegrenze Rheinau
+/ Marthalen, 750 m oberhalb der Fähre Ellikon, bis schaffhausisch-badische Grenze, ab hier ganze Strombreite bis zur zürcherisch-schaffhausischen Grenztafel unterhalb Thurmündung inkl. Rhein- Altwasserläufe, ohne Bruggloch bei Ellikon und ohne Thur.";1008
+29;Rhein, ganze Strombreite von zürcherisch-schaffhausischen Grenztafel unterhalb der Mündung des Flaacherbaches bis zur Grenztafel bei der Mündung des Tobelbächlis, ohne Dorfbach Flaach (Rev. 49);1009
+30;Rhein, ganze Strombreite von der Grenztafel bei der Mündung des Tobelbächlis bis auf die Höhe der Linie rechtes Tössufer- Fischereigrenztafel auf dem rechten Rheinufer bei der Tössegg;1010
+31;"Rhein ganze Strombreite, von der Linie rechtes Tössufer-Fischereigrenztafel auf dem rechten
+Rheinufer bei der Tössegg bis zur Strassenbrücke in Eglisau, ohne Töss (Rev. 113)";1011
+32;"Rhein ganze Strombreite, von der Strassenbrücke in Eglisau bis zur zürcherisch-badischen
+Landesgrenze und von hier an linke Stromhälfte bis zum Stauwehr des EW Eglisau";1012
+33;"Rhein, linke Stromhälfte vom Stauwehr des EW Eglisau bis zur zürcherisch-aargauischen
+Kantonsgrenze sowie Glattmündung bis zum Tunnelgewölbe des Glattauslaufes";1013
+40;Kiesgrubenweiher bei Waltalingen;1014
+45;Dorfbach in Dachsen-Uhwiesen, ohne Weiherareal der Gemeinde Uhwiesen (Rev. 46);1015
+46;Weiherareal der Gemeinde Uhwiesen;1016
+47;Rötibach, Grenzbach Dachsen/ Benken im Weiher;1017
+48;"Dorfbach in Flaach mit Zuflüssen ohne Dorfbach in Volken (Rev. 49) und ohne Rheingraben bei
+Flaach (Rev. 51)";1018
+49;Dorfbach in Volken, ohne Weiheranlage im Lättenacker mit Zufluss (Rev. 50);1019
+50;Weiheranlage im Lättenacker mit Zufluss;1020
+52;Dorfbach in Weiach;1021
+53;Fisibach bei Bachs, bis zum Fischereireviergrenzstein ca. 150m oberhalb der Kantonsgrenze ZH/AG, ohne Kanal und Weiheranlage der Fischzucht Glauser bei der Talmühle (Rev. 54);1022
+54;"Kanal und Weiheranlage der Fischzucht Glauser, von der Wasserfassung bis zur Wasserrückgabe,
+ohne Fisibach (Rev. 53)";1023
+55;Landbach bei Rafz bis zur Landesgrenze;1004
+56;Obere Weiheranlage am Weierbach Rafz;1025
+61;"Thur, Zürcherischer Teil, von der Kantonsgrenze ca. 250 m oberhalb des Steges bei Feldi bis zur
+Brücke bei Gütighausen, ohne Thur-Binnenkanal (Rev. 73)";1026
+62;Thur, Von der Brücke in Gütighausen bis zur Eisenbahnbrücke bei Ossingen;1027
+63;Thur, Von der Eisenbahnbrücke bei Ossingen bis zur Autobahnbrücke bei Andelfingen, ohne Ossingerbach (Rev. 79), ohne Bächlein aus dem Altmoos mit Weiher Dätwil (Rev. 80), ohne Hostbach (Rev. 81) und ohne Überlauf des Orweihers (Rev. 81);1028
+64;"Thur, Von der Autobahnbrücke bei Andelfingen bis zum Altener Felsen (Thurkilometer 7,200), ohne
+Mülibach Andelfingen (Rev. 83)";1029
+73;Thur-Binnenkanal von der Kantonsgrenze bis zur Mündung in die Thur, ohne Schwarzbach oder Ellikerbach (Rev. 74), ohne Moosgraben bei Herten bis zur Mündung in den Talgraben (Rev. 77);1030
+74;Schwarzbach bei Rickenbach (Ellikerbach) bis zur Kantonsgrenze, mit Bach von Kefikon von der Kantonsgrenze in der Erlenwies bis zur Mündung in den Schwarzbach, ohne Weiher bei der Rietmüli Dinhard (Rev. 75);1031
+77;Moosgraben bei Herten bis zur Mündung in den Talgraben;1032
+79;Ossingerbach (Lattenbach), von der Kantonsgrenze bis zur Mündung in die Thur;1033
+81;Hostbach bei Andelfingen, mit Or- und Hostbachweiher mit deren Überlauf bis zur Mündung in die Thur westlich der Turmuhrenfabrik ohne Bahngraben und Weiheranlage ehemalige Fischzucht Waser (Rev. 82);1034
+82;Bahngraben mit Weiheranlage ehemals Fischzuchtanlage Waser;1035
+84;Schüepbach bei Andelfingen, ohne Eisweiher (Rev. 85) und ohne Aufzuchtteiche (Rev. 86);1036
+87;Mederbach, von der Eindolung in Oerlingen bis zur Mündung in die Thur, mit Bach von Trüllikon und Seegraben von der Strasse Langenmoos-Dachsenhausen bis zur Gemeindegrenze Kleinandelfingen- Ossingen, ohne Weiher bei Rudolfingen (Rev. 90);1037
+101;"Töss, von den Quellen (einschl. st.gallische Zuflüsse) bis zur Strassenbrücke bei Ror-
+Lipperschwändi, mit Brüttenbach bei Orüti, ohne Mülibach Fischenthal (Rev. 117), ohne Fuchslochbach bei Steg (Rev. 119) und ohne Bach bei Ror-Lipperschwändi";1038
+102;Töss, von der Strassenbrücke bei Ror-Lipperschwändi bis zur Mündung des Lochbaches Sternenberg, ohne Tobelbach bei Tüfenbach (Rev. 121), ohne Cholerbach bei Seewadel (Rev. 122) ohne Gublenbach Bauma (Rev. 123) ohne Wissenbach Bauma (Rev. 124);1039
+103;Töss, von der Mündung des Lochbaches Sternenberg bis zur Brücke der Tösstalstrasse in Wila, mit Fischbach Saland, ohne Lochbach Sternenberg (Rev. 125), ohne Bach von Homberg (Rev. 126), ohne Reinisbach (Rev. 129) und ohne Aegetswilerbach bei Wila (Rev. 130;1040
+104;Töss, von der Brücke der Tösstalstrasse in Wila bis zur Überfallkante der Wassermessstation oberhalb Hornsagi, mit Tössgewerbekanal vom rechten Tössdamm unterhalb der Brücke der Tösstalstrasse in Wila an abwärts;1041
+105;Töss, von der Überfallkante der Wassermessstation oberhalb Hornsagi bis zur Brücke Au (Zell), mit Zulauf zum Himmerichweiher und mit altem Tössgewerbekanal unterhalb Rikon bis zu seinem Leerlauf in die Töss oberhalb der ehemaligen Spinnerei Schöntal, ohne Schöntalbach (Rev. 128);1042
+107;Töss, von der Tössbrücke unterhalb der Kyburg bis zum Steg beim Ritplatz ca. 400 m oberhalb der Kemptmündung mit rechtsseitigem Fabrikkanal von der Kanalbrücke unterhalb der Kyburg bis zur Mündung in die Töss;1043
+108;"Töss, vom Steg beim Ritplatz ca. 400 m oberhalb der Kemptmündung bis zur ehemaligen
+Wehrkrone der Neumühle oberhalb der SBB-Brücke, ohne Kempt (Rev. 147)";1044
+109;"Töss, von der ehemaligen Wehrkrone der Neumühle oberhalb der SBB-Brücke bis zur Mündung
+der Eulach, mit Fabrikkanälen";1045
+110;Töss, von der Mündung der Eulach bis zum Wehr des EW Pfungen, mit Fabrikkanal, ohne Eulach (Rev. 156) ohne Näfbach (Rev. 163) und ohne Tobelbach bei Wartgut Neftenbach (Rev. 173);1046
+111;Töss, vom Wehr des EW Pfungen bis zur Mündung des Unterwasserkanals vom Kohlschwärzeweiher, ohne Kohlschwärzeweiher, ohne Zu- und Abfluss zum Kohlschwärzeweiher, ohne Rietlibach sowie ohne Mülibach Pfungen (Rev. 174);1047
+112;"Töss, von der Einmündung des Unterwasserkanals aus dem Kohlschwärzeweiher bis zum Wehr
+der Firma Blumer Söhne & Co. Freienstein";1048
+113;"Töss vom Wehr der Firma Blumer Söhne & Co. Freienstein, bis zur Mündung in den Rhein, ohne
+Wildbach Embrach (Rev. 175) und ohne Tüfenbach (Rev. 186)";1049
+117;Mülibach in Fischenthal, ohne Züttbach (Rev. 118);1050
+118;Züttbach ob Fischenthal;1051
+119;Fuchslochbach bei Steg (einschl. st.gallische Zuflüsse);1052
+121;Tobelbach bei Tüfenbach;1053
+122;Cholerbach bei Seewadel;1054
+123;Gublenbach bei Gublen-Bauma;1055
+124;Wissenbach Bauma;1056
+125;Lochbach bei Sternenberg;1057
+126;Bach von Hornberg nördlich Station Saland;1058
+128;Fischteich von Frau B. Leuch-Mottet, südlich von Blitterswil;1059
+129;Reinisbach bei Wila;1060
+130;Aegetswilerbach Wila;1061
+131;"Mülibach bei Wila, mit Zuflüssen bis zum linksseitigen Tössdamm unterhalb der Brücke der
+Tösstalstrasse in Wila";1062
+132;"Chatzenbach bei Turbenthal, mit Setzibach und gemeinsamer Kanal von Chatzen- und Setzibach
+bis zur Mündung in den Tössgewerbekanal";1063
+133;Zellerbach;1064
+134;Tobelbach bei Wildberg bis zum Felsabsturz unterhalb der Bläsimühle;1065
+135;Tobelbach bei Wildberg, vom Felsabsturz unterhalb der Bläsimühle bis zur Mündung in die Töss;1066
+136;Bäntalbach bei Kollbrunn;1067
+137;"Wissenbach bei Weisslingen mit Theilingerweiher, ohne Brauereiweiher (Rev. 138) und ohne
+Weiher oberhalb Wisental mit Zufluss (Rev. 139)";1068
+138;Brauereiweiher Weisslingen;1069
+139;Weiher mit Zufluss oberhalb Wisental;1070
+140;Bolsterenbach bei Kollbrunn, ohne Weiherareal der Fischzucht bei Heidertal (Rev. 141), ohne Weiheranlage der Fischzucht im Erztal und ohne Zulauf zum Weiher der Spinnerei von Ed. Bühler & Co. (Rev. 106);1071
+141;Fischzucht bei Heidertal;1072
+143;Beerental- und Steintobelbach unterhalb Sennhof;1073
+144;Luppmen, von den Quellen bis und mit Stauweiher oberhalb des Weilers Luppmen;1074
+145;Kempt, von der Strassenbrücke zwischen Fehraltorf und Pfäffikon bis zur Rösslibrücke in Unterillnau, ohne Wildbach Fehraltorf (Rev. 148) und ohne Talmazbach bis zur Mündung in den Schwarzbach (Rev. 150);1075
+146;"Kempt, von der Rösslibrücke in Unterillnau bis zur Mündung des Grendelbaches oberhalb der
+Mannenbergbrücke, ohne Hüenerbach bei Illnau (Rev. 151)";1076
+147;"Kempt, von der Mündung des Grendelbaches oberhalb der Mannenbergbrücke bis zur Mündung in
+die Töss, ohne Grendelbach (Rev. 152)";1077
+148;Wildbach bei Fehraltorf;1078
+149;Weiher im Oermis bei Bisikon-Effretikon;1079
+150;Talmazbach bei Illnau bis zur Mündung in den Schwarzbach ohne unteren Wildert-Weiher;1080
+151;Hüenerbach bei Illnau;1081
+152;Grendelbach bei Bisikon-Effretikon ohne Weiher im Oermis;1082
+155;"Eulach, von der Gemeindegrenze Elgg-Elsau (Brücke bei Schnasberg) bis zum Anfang der Eindolung beim Wohlfahrtshaus der Gebr. Sulzer AG, Oberwinterthur, ohne Waltensteiner-Eulach (Rev.
+157) ohne Bächlein bei Räterschen mit Weiheranlagen (Rev. 158)";1083
+156;"Eulach, vom Anfang der Eindolung beim Wohlfahrtshaus der Gebr. Sulzer AG, Oberwinterthur, bis zur Mündung der Töss, ohne Wisenbach in Wiesendangen (Rev. 159), ohne Mattenbach bei Seen
+(Rev. 161), ohne Rosentalbach in Winterthur (Rev. 162)";1084
+157;Waltensteiner-Eulach bis zur Hauptstrassenbrücke Winterthur-Elgg;1085
+158;"Bächlein in Räterschen, ohne Chräbsbach von der Wasserfassung bei Maasacker an abwärts (Rev.
+161)";1086
+159;Wisenbach in Wiesendangen, ohne oberen Weiher bei Oberbertschikon (Rev. 160);1087
+161;Mattenbach bei Seen mit Zuflüssen ohne Bach im Weizacker (Rev. 188);1088
+162;"Rosentalbach in Winterthur bis zur Eindolung unterhalb des Hauses Rosentalstrasse 93, mit
+Weiheranlagen";1089
+163;Näfbach Neftenbach mit Chrebsbach bei Seuzach und Welsikerbach, ausser Areal des Ornith. Verein Seuzach (Rev. 167) sowie Ohringerbach, ohne Schützenhausweiher (Rev. 165), ohne Wisenbach Hettlingen (Rev. 169) und ohne Hüdelbach (Rev. 173);1090
+164;Luppmen, unterhalb der Stauweiher oberhalb des Weilers Luppmen bis zur Strassenbrücke Fehraltorf/Pfäffikon, ohne Dorfbach Pfäffikon, von der Wasserfassung an der Luppmen im Weiherholz an abwärts (Rev. 235);1091
+165;Schützenhausweiher in Winterthur-Veltheim;1092
+167;Welsikerbach im Areal des Ornith. Vereins Seuzach;1093
+168;"Rossweiher und Müliweiher bei der Eichmüli mit Zu- und Abfluss bis zum höchsten Absturz
+unterhalb des Weiherüberlaufs";1094
+169;Wisenbach Hettlingen vom Überlauf des Rossweihers bis zur Mündung in den Näfbach, mit Zuflüssen, ohne Weiher im Mädlestenried (Rev. 171) und ohne Baldisried;1095
+173;Tobelbach Wartguet-Neftenbach und Hüdelbach;1096
+174;Mülibach Pfungen;1097
+175;"Wildbach Embrach, Oberlauf, bis zur Strassenbrücke Lufingen-Embrach, ohne Weiher bei Madlikon (Rev. 177 und 178), ohne Weiher im ""Steichel"" (Rev. 179), ohne Müliweiher Oberembrach (Rev. 180), ohne Eigentalerbach (Rev. 181) und ohne Bäche in Lufingen(Rev. 182)";1098
+176;Wildbach Embrach, Unterlauf, von der Strassenbrücke Lufingen-Embrach bis zur Mündung in die Töss, ohne Lochbach Embrach (Rev. 183), ohne Grossbächli Embrach (Rev. 184) und ohne Büehltobelbach Illingen (Rev. 185);1099
+177;Weiher in Rietwiesen ob Madlikon;1100
+181;Eigentalerbach;1101
+182;Bäche in Lufingen;1102
+183;Lochbach Embrach, bis zur Mündung in den Wildbach mit Weiheranlagen;1103
+184;Grossbächli in Embrach bis zur Mündung in den Wildbach Embrach;1104
+185;Büehltobelbach bei Illingen, Embrach;1105
+186;Tüfenbach in Teufen, Freienstein;1106
+189;Oberwasserkanal von M.Pavoni in Illingen;1107
+203;Glatt, von der Brücke bei Schwerzenbach bis zum Steg des Oberwasserkanals der Oberen Mühle Dübendorf, ohne Zilbach (Rev. 263), ohne Kahlenbächli (Rev. 264) und ohne Wisbach (Rev. 265);1108
+204;"Glatt, vom Überfall im ""Kreis"" und vom Steg des Oberwasserkanals der Oberen Mühle Dübendorf
+bis zur Brücke Bahnhofstrasse Dübendorf";1109
+205;"Glatt, von der Brücke Bahnhofstrasse Dübendorf bis zum Wehr der Firma Zwicky & Co. im
+Neuguet, ohne Breitibach (Rev. 266)";1110
+206;Glatt, vom Wehr der Fabrik Zwicky & Co. im Neuguet bis zum Leerlauf des Kanals zur Herzogenmüli beim unteren Eindolungsende dieses Kanals unter dem Fabrikareal Zwicky, ohne Chriesbach (Rev. 269);1111
+207;Glatt, vom Leerlauf des Kanals zur Herzogenmüli bis zum Glattkilometer 7,6 und Kanal zur Herzogenmüli vom unteren Eindolungsende dieses Kanals unter dem Fabrikareal Zwicky bis zu den Dotierschwellen des Grindelweihers und des Brüelbaches im Hinteren Grindel, ohne Sagentobelbach (Rev. 267);1112
+209;"Glatt, vom Steg des Glattstegweges unterhalb der Herzogenmüli bis zum Absturz oberhalb der
+Mündung des Leutschenbaches";1113
+210;"Glatt, vom Absturz oberhalb der Mündung des Leutschenbaches bis zur Brücke der
+Schaffhauserstrasse in Glattbrugg, mit Brüelbach von seiner Dotierschwelle beim Weiher im Hinteren Grindel an bis zur Mündung in die Glatt, ohne Leutschenbach (Rev. 275)";1114
+211;"Glatt, von der Brücke der Schaffhauserstrasse in Glattbrugg bis zur gedeckten Brücke oberhalb der
+ehemaligen Mündung des Altbaches Kloten";1115
+212;Glatt, von der gedeckten Brücke oberhalb der ehemaligen Mündung des Altbaches Kloten bis zur Brücke in Rümlang, mit Altbach Kloten, von der talseitigen Kante der Eindolung unter der Blindlandepiste bis zur Mündung in die Glatt;1116
+213;Glatt, von der Brücke in Rümlang bis zur Mündung des Himmelbaches bei Oberglatt, ohne Altwasserläufe der Glatt bei Rümlang (Rev. 278) und ohne Stegligraben bei Oberglatt (Rev. 281);1117
+214;"Glatt, von der Brücke bei Grafschaft Nöschikon bis zur Fischereigrenztafel der Gemeinde Bülach
+bei Glattkilometer 24,680, ohne Fischbach (Rev. 282)";1118
+215;Glatt, von der Brücke in Hofstetten bis zur Brücke bei Grafschaft-Nöschikon;1119
+216;"Glatt, von der Brücke bei Grafschaft Nöschikon bis zur Fischereigrenztafel der Gemeinde Bülach
+bei Glattkilometer 24,680, ohne Fischbach (Rev. 282)";1120
+218;"Glatt, von der Fischereigrenztafel beim Auslauf der ARA Bülach in die Glatt bis zur Strassenbrücke
+in Hochfelden";1121
+219;Glatt, von der Brücke in Hochfelden bis zur Brücke Glattfelden-Schachen;1122
+220;"Glatt, von der Brücke Glattfelden-Schachen bis unteres Ende Glattstollen, ohne Bach von Stadel
+und Windlach (Rev. 296)";1123
+221;Weiher im Hinteren Grindel inkl. Kanal bis zum Wildschutzwehr der Herzogenmüli;1124
+231;Aabach in Bäretswil bis zum Zusammenfluss mit dem Staldenbach;1125
+232;"Chämtnerbach (Aabach) von der Mündung des Mettlenbaches in Bäretswil bis zur Mündung in den
+Pfäffikersee, mit Mettlenbach.";1126
+233;Sacktobelbächli bei Auslikon;1127
+235;"Dorfbach Pfäffikon, von der Wasserfassung an der Luppmen im Weiherholz, mit Chrebsi- und
+Müliweiher, ohne Fischzuchtareal Pfäffikon";1128
+237;Wildbach Hinwil bis zur Brücke Dürnten-Ettenhausen;1129
+238;"Wildbach Hinwil von der Brücke Dürnten-Ettenhausen bis zur Brücke unterhalb des ehemaligen
+Gaswerkes in Medikon, mit Ländenbach";1130
+244;Aabach in Uster von der Kanalmündung der Fabrik Trümpler & Söhne in Oberuster, bis zum automatischen Wehr der Zellweger Uster AG in Wil-Niederuster, mit Ober- und Unterwasserkanal der BUAG;1131
+246;"Aabach in Uster, vom automatischen Wehr der Zellweger AG, in Wil-Niederuster, bis zum
+Greifensee ohne Herterweiher (Rev. 248)";1132
+249;Aabach bei Grüningen bis zur Brücke Mönchaltorf-Egg, ohne Chrummbach oberhalb Wasserfall bei Itzikon (Rev. 251), ohne Chindismülibach (Rev. 252), ohne Gossauerbach (Rev. 253), ohne  Mettlenbach (Rev. 254) und ohne Tüftalerbach (Rev. 255);1133
+250;Aabach Mönchaltorf, von der Brücke Mönchaltorf-Egg bis zur Mündung in den Greifensee;1134
+252;Chindismülibach, ohne Müli- und Turbinenweiher bei Chindismüli (Rev. 298);1135
+253;Gossauerbach;1136
+254;Mettlenbach bei Esslingen;1137
+255;Tüftalerbach Mönchaltorf;1138
+256;"Tüfenbach Riedikon, ohne Weiheranlage von E. Zollinger, Riedikon, und ohne Hechtaufzuchtteich
+des Sportfischervereins Greifensee";1139
+257;Bach in Greifensee (Werrikonerbach), ohne Weiheranlage im Glattenried (Rev. 268);1140
+258;Dorfbach und Schulhausbach Uessikon;1141
+259;Eltisenbach bei Maur;1142
+260;Dorfbach, Rausenbach und Aschbach bei Maur;1141
+261;Rohrbach Ebmatingen;1144
+262;Chimlibach bei Schwerzenbach;1145
+263;Dorfbach und Zilbach bei Fällanden;1146
+265;Wisbach bei Dübendorf;1108
+267;Sagentobelbach bei Stettbach-Dübendorf;1148
+268;Weiheranlage im Glattenriet bei Werrikon (Uster) des kantonalen Tiefbauamtes;1149
+274;Hinterbergsee bei Effretikon;1150
+275;Leutschenbach mit Chatzenbach bei Seebach;1151
+276;"Altbach Kloten bis zum unteren Ende der Eindolung unter dem Flughafenareal bei der Kaserne
+Kloten";1152
+279;"Himmelbach bei Oberglatt, vom unteren Ende der Eindolung unter dem Flughafenareal bei der
+Kaserne Kloten bis zur Mündung in die Glatt, mit Ruebisbach und Nägelimoosweiher";1049
+280;Peterstobel- und Spitalerbach mit Weihern bis zur Eindolung oberhalb der Schaffhauerstrasse;1154
+282;Fischbach bei Oberhöri, ohne Mettmenhaslersee (Rev. 10), ohne Weiheranlage und Oberwasserkanal der Mühle in Niedersteinmaur (Rev. 283), Weiheranlage von Honeggers Erben (Rev. 284), Hirsmühleweiher (Rev. 285), Hagackerbach bei Nassenwil (Rev. 289), Fischteiche auf der Westseite des Schutzgebiets Neeracherried (Rev. 288) und ohne Saumgraben bei Neerach bis zur Schwelle 25m oberhalb der Mündung (Rev. 290);1155
+284;Weiheranlage am Dorfbach bei Steinmaur;1156
+291;"Dorfbach Neerach und Saumgraben bis zur Gemeindegrenze Neerach/Höri, ohne Weiheranlagen
+von J. Jucker, Neerrach (Rev. 292)";1157
+293;Riedbach bei Bachenbülach bis zur Gemeindegrenze Bachenbülach-Bülach;1158
+295;Bach oberhalb Stadel mit Weiheranlage bis zur Eindolung ob Stadel;1159
+296;Bach bei Stadel von der Eindolung ob Stadel und Bach bei Windlach bis zur Mündung in die Glatt;1160
+298;Stauweiher bei Chindismüli mit Müliweiher und Turbinenweiher;1161
+301;Jona, bis zum Felsabsturz unterhalb Tüfenhof (ca. 100 m unterhalb Wehr Wellenwogweiher), ohne Fischzuchtanlage von Y. Sacher, Neuthal-Wald (Rev. 304) und ohne Schmittenbach (Rev. 307);1162
+302;"Jona, vom Felsabsturz unterhalb Tüfenhof (ca. 100 m unterhalb Wehr Wellenwogweiher) bis zum
+Hohlauf, mit Unterwasserkanal im Tüfenhof vom Felsabsturz aufwärts";1044
+303;Jona, vom Hohlauf bis zur Kantonsgrenze bei Chüeweid, einschliessl. die zürcherisch-st.gallische Grenzstrecke vom Rotbächli bis zur Chüeweid mit Nebenbächen, ohne Schwarz (Rev. 311), ohne Weierbach (Rev. 308);1164
+304;Weiheranlage der Forellenzucht Y. Sacher, Gibswil;1165
+307;Schmittenbach bei Wald, einschliessl. zürcherisch-st.gallische Zuflüsse;1166
+309;Mülibach und Schluhbach, Hadlikon bis zum Felsabsturz bei Edikon;1167
+310;"Dürntnerbach, vom Felsen bei Edikon bis zum Wasserfall bei der Fabrik in der ""Schwarz"", mit Abfluss aus dem Kämmoosweiher, von der Überfallkante beim Weiherauslauf an abwärts, ohne Wändhüslenbach (Rev. 312) und ohne Kämmoosweiher (Rev. 313)";1168
+311;"Schwarz, vom Wasserfall bei der Fabrik in der ""Schwarz"" bis zur Mündung in die Jona";1169
+312;Wändhüslenbach;1170
+313;"Kämmoosweiher, bis zur Überfallkante beim Weiherauslauf und Seeligraben, vom
+Strassendurchlass beim Zellhof an abwärts";1171
+314;"Diezikonerbach bei Wald bis zur zürcherisch-st.gallischen Grenze, einschl. Bach von Hubertingen,
+Nebenbäche und Stauweiher";1172
+315;Felsenhofbächli bei Goldenberg;1173
+316;Weiher im Autobahnkreisel Betzholz;1174
+317;"Feldbacherbach von der Stauvorrichtung oberhalb der Strasse Lützelsee-Lutikon bis zur Mündung
+in den Zürichsee";1175
+319;"Bäche in Stäfa, ohne Katzentobelweiher (Rev. 320), ohne Scheidbach (Rev. 341) und ohne
+Turbenweidweiher (Rev. 342)";1176
+321;Innerer und äusserer Dollikerbach, Obermeilen;1177
+322;Beugenbach bei Meilen;1178
+323;Dorfbach in Meilen;1179
+324;Rossbach in Herrliberg;1180
+325;Dorfbach Erlenbach;1181
+326;Heslibach bei Küsnacht;1182
+327;Dorfbach Küsnacht, ohne Schübelweiher (Rev. 328);1183
+329;Kusenbach und Salsterbach, ohne Rumensee (Rev. 330) und ohne Schübelweiher ( Rev.328);1184
+332;Werenbach, ohne Elefantenbach (Rev. 333);1185
+333;Elefantenbach;1186
+334;Mülibach Richterswil;1187
+335;Reidbach Wädenswil;1188
+336;Gulmenbach Wädenswil;1189
+338;Meilibach, Grenzbach Horgen-Wädenswil;1190
+339;Aabach in Schönenberg und Wädenswil bis zur Strassenbrücke Hirzel-Wädenswil bei Aamüli;1191
+340;"Aabach in Horgen, von der Strassenbrücke Hirzel-Wädenswil bei Aamüli bis zur Mündung in den
+See";1192
+343;Ausee mit Verbindungskanal zum Zürichsee;1193
+351;Limmat, von der Quaibrücke bis zur Münsterbrücke;1194
+352;Limmat, von der Münsterbrücke bis zur Rudolf Brun-Brücke;1195
+353;"Limmat, von der Rudolf Brun-Brücke bis zum Dachwehr beim Drahtschmiedli, mit Oberwasserkanal
+bis zum Rechen des EW Letten der Stadt Zürich";1196
+354;"Limmat, vom Dachwehr beim Drahtschmiedli bis zum Lettensteg, einschl. Sihl vom Mattensteg
+beim Platzspitz bis zur Mündung in die Limmat";1197
+355;"Limmat, vom Lettensteg bis zum Hardturmsteg, einschl. Unterwasserkanal des EW Letten der
+Stadt Zürich";1198
+357;Limmat, vom Hardturmsteg bis zum Hardeggsteg;1199
+359;Limmat, von den Fischereigrenztafeln bei Limmatkilometer 12,880 bis zum linksseitigen Fischereimarkstein ca. 120 m unterhalb des Wehres bei der Europabrücke, einschl. Oberwasserkanal des EW am Giessen, jedoch ohne Hauserkanal (Rev. 361);1200
+360;"Limmat, vom linksseitigen Fischereimarkstein ca. 120 m unterhalb des Wehres bei der Europabrücke bis zum linksseitigen Fischereimarkstein ca. 40 m oberhalb der Gemeindegrenze Zürich/Oberengstringen mit dem Unterwasserkanal des EW am Giessen, jedoch ohne Hauserkanal
+(Rev. 361)";1201
+361;"Hauserkanal, vom Wehr an der Limmat bis zum Fischereimarkstein ca. 60 m oberhalb der
+Mündung in die Limmat";1202
+363;"Limmat, vom linksseitigen Fischereimarkstein 350 m unterhalb der Einmündung des Schäflibaches
+bis zum Wehr der EKZ Dietikon, einschl.Oberwasserkanal des EW Dietikon";1203
+364;Limmat, vom Wehr des EW der EKZ Dietikon bis zum linksseitigen Fischereimarkstein 140,2 m unterhalb der Reppischmündung mit Unterwasserkanal des EW der EKZ, jedoch ohne Länggenbach Weinigen (Rev. 373);1203
+370;"Reppisch, von der Stallikonerstrasse in Birmensdorf bis zur Brücke Oberes Reppischtal, ohne
+Wüeribach (Rev. 385) und ohne Lunnerbach (Rev.386)";1205
+371;Schäflibach bei Dietikon und Urdorf, ohne Bollweiher (Rev. 372);1206
+372;Fischweiher am Allmendbach in Oberurdorf;1207
+373;Länggenbach bei Weinigen bis zur Mündung in die Limmat, einschl. der damit in Verbindung stehenden Altwasserläufe rechts der Limmat, ohne Müliweiher Weinigen (Rev. 374);1208
+374;Müliweiher im Langenmoos Weiningen;1209
+376;Reppisch, vom Regulierwehr bei Sprecherhüser bis zur Strassenbrücke bei der Aumüli;1210
+377;"Reppisch, von der Strassenbrücke bei der Aumüli bis zur Brücke in Stallikon, ohne Weiher bei
+Ausser-Gamlikon (Rev. 383), ohne Torfweiher im Eichmoos Bonstetten (Rev. 384)";1211
+378;Reppisch, von der Brücke in Stallikon bis zum SBB-Damm oberhalb Landikon;1212
+379;Reppisch, vom SBB-Damm oberhalb Landikon bis zur Brücke der Stallikonerstrasse in Birmensdorf;1213
+380;"Reppisch, von der Brücke oberes Reppischtal bis zur Brücke ca. 70 m oberhalb der Mündung
+Rummelbach von Rudolfstetten";1214
+381;"Reppisch, von der Brücke ca. 70 m oberhalb Mündung Rummelbach von Rudolfstetten bis zum
+Absturz oberhalb Hochwasserentlastung aus Oberwasserkanal zum Hätschenweiher";1215
+382;Reppisch, vom Absturz oberhalb Hochwasserentlastung aus Oberwasserkanal zum Hätschenweiher bis auf die Höhe der rechtsseitigen Einmündung des Unterwasserkanals des EW der EKZ Dietikon, ohne Hätschenweiher (Rev. 389);1216
+386;Lunnerbach bei Birmensdorf;1217
+387;Weiher bei Lochen, Bonstetten, mit Abfluss bis Strassenbrücke Bonstetten-Wettswil;1218
+389;"Hätschenweiher (Marmoriweiher) mit Oberwasserkanal von der Hochwasserentlastung nach der
+Reppisch, ohne dieselbe";1219
+390;Furtbach bei Watt und Adlikon bis zum Fischereimarkstein unterhalb Otelfingen, ohne oberen und unteren Müliweiher Regensdorf (Rev. 391 und 392), ohne Dorfbach in Otelfingen (Rev. 393) und ohne Harberenbach bei Boppelsen (Rev. 397);1220
+393;Dorfbach Otelfingen, ohne Weiheranlagen von W. Bopp am Luchernbach, mit Zuflüssen (Rev. 394);1220
+394;Weiheranlagen am Luchernbach von W. Bopp, mit Zuflüssen ohne Dorfbach Otelfingen (Rev. 393);1222
+395;Surb, bis zur Kantonsgrenze unterhalb der Maschinenfabrik Bucher-Guyer, Niederweningen;1223
+397;Harberenbach bei Boppelsen;1224
+398;"Sihl, von der schwyzerischen Kantonsgrenze (Fischereigrenztafel am rechten Ufer) bis zur
+zugerischen Kantonsgrenze bei der Mündung des Gripbaches";1225
+399;"Sihl, von der Mündung des Gripbaches bis zur Mündung des Unterwasserkanals des
+Waldhaldewerkes der EKZ";1226
+400;Sihl, von der Mündung des Unterwasserkanals des Waldhaldewerkes der EKZ bis zur Mündung des linksseitigen Bächleins von Oberschwelli (bzw. Gemeindegrenze Menzingen-Neuheim), ohne Teufenbach (Rev. 411), ohne Sagenbach (Rev. 412) und ohne Mülibach bei Spitzen/Hirzel (Rev. 413);1227
+401;Sihl, von der Mündung des linksseitigen Bächleins von Oberschwelli (bzw. Gemeindegrenze Menzingen-Neuheim) bis zur Mündung des eingedolten Talbaches (linkes Ufer, ca. 85 m unterhalb der Strassenbrücke Sihlbrugg-Dorf);1228
+402;Sihl, von der Mündung des eingedolten Talbaches (linkes Ufer unterhalb Strassenbrücke in Sihlbrugg-Dorf) bis zur Mündung des Kellerbodenbaches bei der Station Sihlbrugg, ohne Tobelmülibach Hirzel (Rev. 414);1229
+403;"Sihl, von der Mündung des Kellerbodenbaches bei der Station Sihlbrugg bis zum untersten Haus
+bei Binzboden, ohne Wüeribach (Rev. 415)";1182
+404;Sihl, vom untersten Haus beim Binzboden bis zur Sihlbrücke beim Hotel Forsthaus, einschl. Schlegeltobelbach von der Fassung des Chrebsbaches an abwärts bis zur Mündung in die Sihl;1231
+405;"Sihl, von der Sihlbrücke beim Hotel Forsthaus bis zum Wehr oberhalb der Strassenbrücke Langnau-
+Thalwil bei Gattikon";1189
+406;Sihl, vom Wehr oberhalb der Strassenbrücke Langnau-Thalwil bei Gattikon bis zum ehemaligen Wehr im Höfli bei Gontenbach (85 m unterhalb des Stirnemann-Steges), ohne Chrebsbach bei Gattikon (Rev. 417) und ohne Dorfbach Langnau (Rev. 418);1233
+407;"Sihl, vom ehemaligen Wehr im Höfli (85 m unterhalb des Stirnemann-Steges) bis zum Wehr
+oberhalb der Station Leimbach, ohne Gontenbach (Rev. 419)";1234
+408;Sihl, vom Wehr oberhalb Leimbach bis zu Wehr der Papierfabrik an der Sihl;1235
+409;"Sihl, vom ehemaligen Wehr der Papierfabrik an der Sihl bei der Mündung des Unterwasserkanals
+des Werkes Manegg bis zur Überfallkante über dem SBB-Tunnel";1236
+410;"Sihl, von der Überfallkante über dem SBB-Tunnel bis zum Mattensteg beim Platzspitz, ohne
+Schanzengraben (Rev. 422)";1237
+411;Teufenbach bei Schönenberg;1238
+412;Sagenbach bei Schönenberg;1239
+413;"Mülibach bei Spitzen Hirzel, ohne Zufluss von Wolfisbüel bis zur Mündung des Ägertenbach im
+Chrutzelenriet";1240
+414;Tobelmülibach Hirzel bis zur Sperre zwischen Flurweg und Sihl;1241
+415;Grindelbach und Wüeribach, Horgen, ohne Bergweiher (Rev. 416);1242
+417;"Chrebsbach Gattikon, mit Gattiker- und Waldweiher sowie Oberlauf des Schlegeltobelbaches bis
+zur Wasserentnahme für den Chrebsbach";1231
+418;Dorfbach Langnau;1244
+419;Gontenbach;1245
+420;Schanzengraben, vom See bis zur Bleicherwegbrücke;1246
+421;Schanzengraben, von der Bleicherwegbrücke bis zum Wehr unterhalb der städtischen Badeanstalt;1247
+422;Schanzengraben, vom Wehr unterhalb der städtischen Badeanstalt bis zur Mündung in die Sihl;1248
+423;"Littibach bei Kappel bis zur Kantonsgrenze und 1 km gemeinsame Grenzstrecke Zürich-Zug, ohne
+Weiher bei der Anstalt Kappel (Rev. 424)";1249
+424;Weiher der Anstalt Kappel;1250
+427;"Lorze, ganze Breite, vom rechtsufrigen Fischereimarkstein 675 m unterhalb der Lorzebrücke bei
+Maschwanden bis zur Mündung in die Reuss, ohne linksseitige Zuflüsse";1251
+429;"Haselbach, bis zur Brücke beim Gasthof ""Adler"" in Knonau";1252
+430;"Haselbach, von der Brücke beim Gasthof ""Adler"" in Knonau bis zur Mündung in die Lorze";1253
+431;Lindenbach Obfelden, ohne Fischweiher bei Eigi-Mettmenstetten (Rev. 432);1238
+432;Fischweiher bei Eigi-Mettmenstetten;1255
+433;"Fabrikkanal in Ottenbach, vom Wehr des Oberwasserkanals an der Reuss bis zur Mündung des
+Unterwasserkanals in die Reuss, mit Dorfbach Ottenbach";1252
+435;Jonen, bis zur Hauptbrücke in Unter-Rifferswil, ohne Weiher im Heisch und Hinteralbis (Rev. 438);1257
+436;"Jonen, von der Hauptbrücke in Unter-Rifferswil bis zur Hauptstrassenbrücke (Sternenbrücke)
+Mettmenstetten-Hedingen in Affoltern a.A.";1258
+437;"Jonen, von der Hauptstrassenbrücke (Sternenbrücke) Mettmenstetten-Hedingen in Affoltern a.A.
+bis zur Kantonsgrenze, ohne Hofibach bei Hedingen (Rev. 439)";1259
+438;Weiher Heisch und Hinteralbis;1260
+441;Hedingerweiher, einschl. Hirslenbach;1261

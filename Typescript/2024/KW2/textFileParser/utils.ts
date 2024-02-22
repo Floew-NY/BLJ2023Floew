@@ -1,12 +1,10 @@
 export const textToWordArray = (text: string) => {
-  let lowerCaseText = text.toLowerCase();
-  let singleLineText = lowerCaseText.replaceAll("\n", " ");
-  let wordArray = singleLineText
-    .split("")
-    .filter((char) => /[a-zA-Z0-9 ]/.test(char))
-    .join("")
+  let wordArray = text
+    .toLowerCase()
+    .replaceAll("\n", " ")
+    .replaceAll(/[^a-z0-9 ]/g, "")
     .split(" ")
-    .filter((word) => word);
+    .filter((word) => word.trim());
   return wordArray;
 };
 

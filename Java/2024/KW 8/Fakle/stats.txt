@@ -1,0 +1,32 @@
+Date: 2024-02-22
+Language: null
+Length: 0
+Time: 1708590279203
+Guesses: 0
+Word: 
+Win: false
+
+Date: 2024-02-22
+Language: null
+Length: 0
+Time: 28476512 mins 52 secs
+Guesses: 0
+Word: null
+Win: false
+
+Date: 2024-02-22
+Language: null
+Length: 0
+Time: 28476526 mins 14 secs
+Guesses: 0
+Word: []
+Win: true
+
+Date: 2024-02-22
+Language: null
+Length: 0
+Time: 28476526 mins 57 secs
+Guesses: 2
+Word: []
+Win: true
+

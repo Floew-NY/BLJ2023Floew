@@ -1,0 +1,1 @@
+export PGPASSWORD='!30pgpw48';psql -h 192.168.18.129 -p 5432 -d postgres -U postgres

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ListItemComponent, { ListItemComponentProps } from "./ListItem";
 import { List, ListItem } from "@mui/material";
-import { List } from "../model";
+import { Item, List, List, List } from "../model";
 
 export type ListComponentProps = {
   list: List;
@@ -9,10 +9,24 @@ export type ListComponentProps = {
 };
 
 function ListComponent({ list, deleteItem }: ListComponentProps) {
+
+  const [currentList, setCurrentList] = useState<List>(list);
+
+  useEffect(() => {
+    setCurrentList(list);
+  }, [list])
+
+  const deleteItem = (item: Item) => {
+    setCurrentList((prev: List) => {
+       let prevList: Item[] = prev.items.indexofx;
+       prevList. 
+    })
+  }
+
   return (
     <section>
       <List>
-        {list.items.map((item, index) => (
+        {currentList.items.map((item, index) => (
           <ListItemComponent
             item={item}
             key={index}

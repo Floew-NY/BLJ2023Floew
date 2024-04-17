@@ -19,7 +19,7 @@ export type ListItemComponentProps = {
   deleteItem: () => void;
 };
 
-function ListItemComponent({ item, deleteItem }: ListItemComponentProps) {
+function ListItemComponent({ item :, deleteItem }: ListItemComponentProps) {
   const [openDialog, setOpenDialog] = useState(false);
 
   const handleClickOpen = () => {

@@ -7,7 +7,7 @@ export interface ImageApiProps {
   height: number;
 }
 export const defaultAxiosInstance = axios.create({
-  baseURL: process.env.IMAGE_API_URL || "https://api.thecatapi.com/v1/images",
+  baseURL: "https://api.thecatapi.com/v1/images/",
 });
 export async function getRandomImage() {
   const responce = await defaultAxiosInstance.get<ImageApiProps[]>("search");

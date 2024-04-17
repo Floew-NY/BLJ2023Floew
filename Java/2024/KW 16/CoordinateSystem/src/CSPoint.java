@@ -1,7 +1,7 @@
 import java.awt.Point;
 
 public class CSPoint extends Point {
-    int id;
+    public int id;
     static int increment = 1;
 
     CSPoint(int x, int y) {

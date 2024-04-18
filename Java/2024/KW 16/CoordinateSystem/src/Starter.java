@@ -1,8 +1,8 @@
 public class Starter {
     public static void main(String[] args) throws Exception {
-        CoordinateSystem cs = new CoordinateSystem(20);
-        cs.addPoint(new CSPoint(3, 5));
-        cs.addPoint(new CSPoint(1, 2));
-        new CSRenderer(cs);
+        CoordinateSystem cs = new CoordinateSystem(500);
+        cs.addPoint(new CSPoint(30, 50));
+        cs.addPoint(new CSPoint(10, 20));
+        new CSRenderer(cs,1,10);
     }
 }

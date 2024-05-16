@@ -17,13 +17,9 @@ public class CSPoint extends Point implements Drawable {
     }
 
     public void draw(Graphics2D g2d, int fieldScale, int fieldSize) {
-        CSPoint translatedPoint = translatePoint(this, fieldScale, fieldSize);
+        CSPoint translatedPoint = Translator.translatePoint(this, fieldScale, fieldSize);
         g2d.setColor(Color.BLUE);
         g2d.drawLine(translatedPoint.x, translatedPoint.y, translatedPoint.x, translatedPoint.y);
-    }
-
-    private CSPoint translatePoint(Point point, int fieldScale, int fieldSize) {
-        return new CSPoint(point.x * fieldScale + fieldSize / 2, fieldSize / 2 - point.y * fieldScale);
     }
 
     @Override

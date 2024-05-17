@@ -2,7 +2,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class CoordinateSystem {
-    private Set<CSPoint> points;
+    private Set<Drawable> drawables;
+
     private int coordinateSystemSize;
 
     public CoordinateSystem(int coordinateSystemSize) {
@@ -10,15 +11,15 @@ public class CoordinateSystem {
             throw new IllegalArgumentException(
                     "The Coordinate System must be positive and divisible by 20 without remainder.");
         this.coordinateSystemSize = coordinateSystemSize;
-        points = new HashSet<CSPoint>();
+        drawables = new HashSet<Drawable>();
     }
 
-    public void addPoint(CSPoint point) {
-        points.add(point);
+    public Set<Drawable> getAllDrawables() {
+        return drawables;
     }
 
-    public Set<CSPoint> getAllPoints() {
-        return this.points;
+    public void addDrawable(Drawable drawable) {
+        this.drawables.add(drawable);
     }
 
     public int getCoordinateSystemSize() {

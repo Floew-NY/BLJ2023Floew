@@ -36,14 +36,14 @@ public class CSRenderer extends JPanel {
    * 
    * @param cs         The coordinate system (including all points) to draw.
    * @param fieldScale The scaling of the coordinate system.
-   * @param pointSize  The size which will determine how large points will appear
+   * @param strokeSize The size which will determine how large points will appear
    *                   in the coordinate system.
    */
-  public CSRenderer(CoordinateSystem cs, int fieldScale, int pointSize) {
+  public CSRenderer(CoordinateSystem cs, int fieldScale, int strokeSize) {
     this.cs = cs;
     this.size = cs.getCoordinateSystemSize() * fieldScale;
     this.fieldScale = fieldScale;
-    this.pointSize = pointSize;
+    this.pointSize = strokeSize;
 
     OFFSET_MID = (size + fieldScale) / 2;
     OFFSET_END = size + (fieldScale / 2);
@@ -104,12 +104,10 @@ public class CSRenderer extends JPanel {
     g2d.setColor(Color.RED);
     g2d.drawLine(OFFSET_MID, OFFSET_MID, OFFSET_MID, OFFSET_MID);
 
-    // all points
+    // all drawables
     g2d.setStroke(new BasicStroke(pointSize));
-    for (CSPoint point : cs.getAllPoints()) {
-      CSPoint translatedPoint = translatePoint(point);
-      g2d.setColor(Color.BLUE);
-      g2d.drawLine(translatedPoint.x, translatedPoint.y, translatedPoint.x, translatedPoint.y);
+    for (Drawable drawable : cs.getAllDrawables()) {
+      drawable.draw(g2d, fieldScale, size);
     }
   }
 
@@ -135,18 +133,23 @@ public class CSRenderer extends JPanel {
    */
   private void setupMouseMotionListener(int leeway) {
     int scaledLeeway = leeway + pointSize / 2;
-    this.addMouseMotionListener(new MouseAdapter() {
-      @Override
-      public void mouseMoved(MouseEvent me) {
-        for (CSPoint point : cs.getAllPoints()) {
-          CSPoint tp = translatePoint(point);
-
-          if ((me.getPoint().x >= tp.x - scaledLeeway && me.getPoint().x <= tp.x + scaledLeeway)
-              && (me.getPoint().y >= tp.y - scaledLeeway && me.getPoint().y <= tp.y + scaledLeeway)) {
-            mainFrame.setTitle(point.toString());
-          }
-        }
-      }
-    });
+    /*
+     * this.addMouseMotionListener(new MouseAdapter() {
+     * 
+     * @Override
+     * public void mouseMoved(MouseEvent me) {
+     * for (CSPoint point : cs.getAllPoints()) {
+     * CSPoint tp = translatePoint(point);
+     * 
+     * if ((me.getPoint().x >= tp.x - scaledLeeway && me.getPoint().x <= tp.x +
+     * scaledLeeway)
+     * && (me.getPoint().y >= tp.y - scaledLeeway && me.getPoint().y <= tp.y +
+     * scaledLeeway)) {
+     * mainFrame.setTitle(point.toString());
+     * }
+     * }
+     * }
+     * });
+     */
   }
 }

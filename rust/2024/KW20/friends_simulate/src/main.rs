@@ -32,7 +32,7 @@ fn handle_client(mut stream: TcpStream) -> Result<()> {
     }
 }
 fn main() -> Result<()> {
-    let listener = TcpListener::bind("127.0.0.1:0")?;
+    let listener = TcpListener::bind("0.0.0.0:0")?;
     println!("{}", listener.local_addr()?);
     for stream in listener.incoming() {
         handle_client(stream?)?;

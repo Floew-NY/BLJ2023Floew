@@ -1,42 +1,18 @@
-use std::{io::stdin, net::TcpStream, sync::mpsc::Receiver};
+use std::{
+    io::{stdout, Write},
+    net::TcpStream,
+    sync::mpsc::Receiver,
+};
 
-pub fn server_connection(userinput_reciever: Receiver<String>) {
+use crate::user_input::user_console_input;
+
+pub fn server_connection(mut connection: TcpStream, userinput_reciever: Receiver<String>) {
     loop {
-        loop {
-            print!("Enter the server's address:");
-            let addr = user_console_input();
-            print!("Enter your displayname:");
-            let name = user_console_input();
-
-            let connection;
-            match TcpStream::connect(addr) {
-                Ok(con) => connection = con,
-                Err(_) => {
-                    println!("Provided Address didnt work.");
-                    continue;
-                }
-            }
-            loop {
-                for outgoing_message in userinput_reciever.iter() {}
-            }
+        for outgoing_message in userinput_reciever.iter() {
+            println!("message sent: {}", outgoing_message);
+            stdout().flush();
+            connection.write(outgoing_message.clone().as_bytes());
+            connection.flush();
         }
     }
-}
-fn user_console_input() -> String {
-    let mut input = String::new();
-    stdin()
-        .read_line(&mut input)
-        .expect("Did not enter a correct string");
-    if let Some('\n') = input.chars().next_back() {
-        input.pop();
-    }
-    if let Some('\r') = input.chars().next_back() {
-        input.pop();
-    }
-    input
-}
-
-struct Client {
-    name: String,
-    address: String,
 }

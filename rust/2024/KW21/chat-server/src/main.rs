@@ -32,12 +32,10 @@ fn main() -> Result<()> {
         });
 
         clients.push(client_reciever.recv().expect("Error Retrieving name :("));
+
+        println!("Connected Clients:");
         for client in clients.iter() {
-            println!(
-                "Client: {} - {}",
-                client.name[..client.name.len() - 1].to_string(),
-                client.address
-            );
+            println!("Client: {} - {}", client.name, client.address);
         }
     }
     Ok(())

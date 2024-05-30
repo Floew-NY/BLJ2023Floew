@@ -53,7 +53,9 @@ fn read_line(stream: &mut TcpStream) -> Option<String> {
             }
         }
         if buffer[0] == b'\n' {
-            return Some(String::from_utf8(line).expect("Couldnt parse UTF-8"));
+            return Some(
+                String::from_utf8(line[..line.len() - 1].to_vec()).expect("Couldnt parse UTF-8"),
+            );
         }
     }
 }

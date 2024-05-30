@@ -2,7 +2,6 @@ use std::{
     io::{Read, Result},
     net::TcpStream,
     sync::mpsc::Sender,
-    time::Duration,
 };
 
 use crate::shared::Client;

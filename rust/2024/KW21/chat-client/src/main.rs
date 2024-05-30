@@ -3,7 +3,7 @@ mod user_input;
 use std::{
     io::{stdin, stdout, Write},
     net::TcpStream,
-    sync::mpsc::{channel, Receiver, Sender},
+    sync::mpsc::{channel, Receiver, Sender, TryRecvError},
     thread,
 };
 
@@ -39,12 +39,16 @@ fn main() {
 
         loop {
             let _ = message_sender.send(format!("{}\n", user_console_input()));
-            if is_open_reciever.try_recv().is_err() {
-                continue;
-            }
-            if is_open_reciever.try_recv().unwrap() == false {
-                println!("Connection lost :(");
-                break;
+            match is_open_reciever.try_recv() {
+                Ok(false) => {
+                    println!("Server has closed the connection");
+                    break;
+                }
+                Err(TryRecvError::Disconnected) => {
+                    println!("Server has unexpectedly disconnected");
+                    break;
+                }
+                _ => {}
             }
         }
         let _ = net_thread.join().expect("couldnt join thread :(");

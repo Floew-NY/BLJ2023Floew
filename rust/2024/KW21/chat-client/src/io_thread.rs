@@ -9,7 +9,7 @@ use crate::user_input::user_console_input;
 pub fn server_connection(
     mut stream: TcpStream,
     message_reciever: Receiver<String>,
-    isOpenSender: Sender<bool>,
+    is_open_sender: Sender<bool>,
 ) -> Result<()> {
     let _ = stream.write(
         message_reciever
@@ -23,18 +23,17 @@ pub fn server_connection(
             let message = match read_line(&mut stream) {
                 Some(message) => message,
                 None => {
+                    let _ = is_open_sender.send(false);
                     return Ok(());
                 }
             };
-            print!("{}", message);
-        }
 
-        let _ = match message_reciever.try_recv() {
-            Ok(message) => stream.write(message.as_bytes()),
-            Err(_) => continue,
+            println!("{}", message);
+        }
+        if let Ok(message) = message_reciever.try_recv() {
+            let _ = stream.write_all(message.as_bytes());
         };
     }
-    Ok(())
 }
 
 fn check_stream_queue(stream: &mut TcpStream) -> bool {
@@ -72,7 +71,9 @@ fn read_line(stream: &mut TcpStream) -> Option<String> {
             }
         }
         if buffer[0] == b'\n' {
-            return Some(String::from_utf8(line).expect("Couldnt parse UTF-8"));
+            return Some(
+                String::from_utf8(line[..line.len() - 1].to_vec()).expect("Couldnt parse UTF-8"),
+            );
         }
     }
 }

@@ -1,4 +1,5 @@
 import Jimp from "jimp";
+import fs from 'fs';
 
 interface RGBA {
     r: number;
@@ -6,6 +7,7 @@ interface RGBA {
     b: number;
     a: number;
 }
+
 
 let imagePath = "output.png";
 
@@ -22,7 +24,11 @@ Jimp.read(imagePath)
             } else if (index < stringLength)
                 encodedBytes.push(decodePixelIntoByte(RGBAPixel));
         })
-        console.log(decodeString(encodedBytes));
+
+        fs.writeFile('minecraft.html', decodeString(encodedBytes), (err) => {
+            if (err) throw err;
+            console.log('The file has been saved!');
+        });
     });
 
 
